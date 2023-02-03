@@ -1,7 +1,5 @@
 #include <gtest/gtest.h>
 
-#include <cmath>
-
 static unsigned int f(unsigned int n) {
     unsigned int sum1 = 0;
     unsigned int sum2 = 0;
