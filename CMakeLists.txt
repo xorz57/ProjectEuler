@@ -9,4 +9,6 @@ add_executable(ProjectEulerTest tests/Problem0001Test.cpp)
 
 target_link_libraries(ProjectEulerTest PRIVATE GTest::gtest GTest::gtest_main)
 
+enable_testing()
+
 add_test(NAME ProjectEuler COMMAND ProjectEulerTest)
