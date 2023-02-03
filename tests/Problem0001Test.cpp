@@ -12,5 +12,5 @@ static unsigned int f(unsigned int n) {
 
 TEST(Problem0001, Solution) {
     EXPECT_EQ(f(10), 23);
-    EXPECT_EQ(f(1000), 233168);
+    EXPECT_EQ(f(1'000), 233'168);
 }
