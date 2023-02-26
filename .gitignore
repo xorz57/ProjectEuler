@@ -1,6 +1,5 @@
 # IntelliJ CLion
-/cmake-build-debug/
-/cmake-build-release/
+/cmake-build-*/
 
 # Microsoft Visual Studio Code
 /build/
