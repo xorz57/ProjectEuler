@@ -1,4 +1,5 @@
 #include <gtest/gtest.h>
+
 #include <optional>
 
 static std::optional<unsigned int> f() {
