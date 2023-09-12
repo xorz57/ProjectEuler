@@ -10,7 +10,7 @@ static unsigned int f(unsigned int n) {
     return sum;
 }
 
-TEST(Problem0001, Solution) {
+TEST(Problem0001, Test1) {
     EXPECT_EQ(f(10), 23);
     EXPECT_EQ(f(1'000), 233'168);
 }

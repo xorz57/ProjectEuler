@@ -14,6 +14,6 @@ static std::optional<unsigned int> f() {
     return {};
 }
 
-TEST(Problem0009, Solution) {
+TEST(Problem0009, Test1) {
     EXPECT_EQ(f(), 31'875'000);
 }
