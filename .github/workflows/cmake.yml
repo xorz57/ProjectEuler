@@ -1,9 +1,10 @@
 name: CMake
 on:
   push:
-    branches: [ "master" ]
+    branches:
+      - master
   pull_request:
-    branches: [ "master" ]
+    types: [ opened, synchronize, reopened ]
 env:
   BUILD_TYPE: Release
 jobs:
