@@ -10,6 +10,7 @@ jobs:
     name: Build and analyze
     runs-on: ubuntu-latest
     env:
+      BUILD_TYPE: Release
       BUILD_WRAPPER_OUT_DIR: build_wrapper_output_directory
     steps:
       - uses: actions/checkout@v3
