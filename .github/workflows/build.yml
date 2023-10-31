@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Cache vcpkg dependencies
+      - name: Cache vcpkg Dependencies
         uses: actions/cache@v3
         with:
           path: |
