@@ -13,7 +13,7 @@ Project Euler Solutions written in C++17
 
 - [GTest](https://github.com/google/googletest)
 
-## How to Build using [CMake](https://cmake.org/)
+## How to Build using CMake
 
 ```bash
 cmake -B build
